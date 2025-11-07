@@ -1,0 +1,83 @@
+# =========================
+# Python + Streamlit Project
+# =========================
+
+# ---- Python cache & compiled files ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environment ----
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Environment & config files ----
+# (keep .streamlit/config.toml but ignore other hidden files)
+*.env
+*.ini
+*.cfg
+*.toml
+!.streamlit/config.toml
+
+# ---- Jupyter notebooks checkpoints ----
+.ipynb_checkpoints/
+
+# ---- Distribution / packaging ----
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Logs & temporary files ----
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- IDE / editor specific ----
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---- Streamlit specific ----
+# Streamlit stores credentials and usage stats here
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# ---- macOS / system files ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Optional: ignore large model or dataset files ----
+*.pkl
+*.h5
+*.csv
+*.db
+*.sqlite
+*.zip
+*.tar.gz
+
+# ---- Other temporary artifacts ----
+test/
+tmp/
+cache/
+logs/
