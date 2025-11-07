@@ -49,7 +49,7 @@ with updated code for the latest LangChain 1.x syntax and OpenAI API integration
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/UrBaneee/restaurant_app.git
+   git clone https://github.com/UrBaneee/restaurant-app.git
    cd restaurant_app
 
 2. **Create and activate a virtual environment**
@@ -71,3 +71,4 @@ with updated code for the latest LangChain 1.x syntax and OpenAI API integration
 4. **Run the app**
    ```bash
    streamlit run app.py
+
